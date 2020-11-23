@@ -1,3 +1,3 @@
-#student portfolio
+# student portfolio
 
-hello bhaiya
+hello i am Shriyansh Bhargava
