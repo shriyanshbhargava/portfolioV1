@@ -1,0 +1,369 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+a:active {
+  font-weight: bolder;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+.menu {
+  position: absolute;
+  right: 10rem;
+  padding-top: 20px;
+}
+
+.menu1,
+.menu2,
+.menu3 {
+  padding: 5px;
+}
+
+.name {
+  line-height: 3rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 5rem;
+  font-size: larger;
+  background-color: rgb(196, 207, 199);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.img1 {
+  padding-top: 10rem;
+  padding-left: 5rem;
+  width: 26rem;
+}
+
+.intro {
+  display: flex;
+}
+
+.intro-1 {
+  font-weight: 200px;
+  font-size: 25px;
+  line-height: 30px;
+  width: 31rem;
+  padding-top: 18rem;
+  padding-left: 8rem;
+}
+
+.header {
+  padding: 7rem 0rem 0rem 15rem;
+  width: 50rem;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.content {
+  padding-top: 9px;
+  font-size: 1.25rem;
+}
+
+.header-link {
+  font-size: 1.5rem;
+  padding-top: 1.5rem;
+  padding-left: 10px;
+  font-family: ubuntu, sans serif;
+}
+
+.social-div {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.footer {
+  background-color: rgb(196, 207, 199);
+  margin-top: 4.5rem;
+}
+
+.social {
+  padding: 5px 18px 20px 18px;
+  width: 35px;
+}
+
+.connect {
+  font-size: 1.75rem;
+  font-weight: bolder;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.name-mob {
+  display: none;
+}
+
+/*mobile*/
+
+@media (max-width: 576px) {
+  .menu {
+    position: absolute;
+    right: 3rem;
+  }
+
+  .menu1,
+  .menu2,
+  .menu3 {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .name {
+    line-height: 3rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .navbar {
+    display: flex;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    font-size: 10px;
+    background-color: rgb(196, 207, 199);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .img1 {
+    padding-top: 6rem;
+    padding-left: 2.5rem;
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .intro-1 {
+    font-weight: 200px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 10rem;
+    padding-top: 7rem;
+    padding-left: 1.1rem;
+  }
+
+  .header {
+    padding: 3rem 0rem 0rem 1.5rem;
+    width: 22rem;
+    line-height: 20px;
+  }
+
+  .heading {
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .content {
+    padding-top: 9px;
+    font-size: 15px;
+  }
+
+  .header-link {
+    font-size: 13px;
+    padding-top: 1.5rem;
+    padding-left: 10px;
+    font-family: ubuntu, sans serif;
+  }
+  /*index.js ended*/
+}
+
+/* ---------------------Index.html Ended----------------------- */
+
+.projects {
+  margin-top: 6rem;
+  padding: 1rem 0rem 0rem 15rem;
+  width: 50rem;
+}
+
+.pro-all {
+  margin-top: 6rem;
+}
+
+.pro-head {
+  font-size: 28px;
+  font-weight: bolder;
+  font-family: ubuntu, sans-serif;
+}
+
+.pro-con {
+  padding-top: 0.5rem;
+  font-size: 18px;
+  font-family: ubuntu, sans-serif;
+}
+
+.buttons {
+  display: flex;
+}
+
+.live {
+  font-size: 13px;
+  background-color: rgb(226, 224, 238);
+  color: rgb(68, 58, 139);
+  margin: 25px 20px 0px 10px;
+  padding: 12px 25px 12px 25px;
+}
+
+.github {
+  font-size: 13px;
+  background-color: rgb(226, 224, 238);
+  color: rgb(68, 58, 139);
+  margin: 25px 20px 0px 10px;
+  padding: 12px 23px 12px 23px;
+}
+
+@media (max-width: 576px) {
+  .pro-all {
+    margin-top: 1.5rem;
+  }
+
+  .projects {
+    margin-top: 4rem;
+    padding: 2rem 0rem 0rem 1.5rem;
+    width: 22rem;
+  }
+
+  .pro-head {
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: ubuntu, sans-serif;
+  }
+
+  .pro-con {
+    padding-top: 0.5rem;
+    font-size: 15px;
+    font-family: ubuntu, sans-serif;
+  }
+}
+
+/* ---------------------Projects.html Ended----------------------- */
+
+.blogs {
+  padding: 5rem 0rem 5rem 15rem;
+  width: 50rem;
+}
+
+.blog-list {
+  margin-top: 6rem;
+}
+
+.date {
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+.blog-link {
+  font-size: 14px;
+  font-weight: bold;
+  background-color: rgb(226, 224, 238);
+  color: rgb(68, 58, 139);
+  margin: 25px 20px 0px 10px;
+  padding: 15px 27px 15px 27px;
+}
+
+@media (max-width: 576px) {
+  .blogs {
+    margin-top: 3rem;
+    padding: 2rem 0rem 8rem 1.5rem;
+    width: 22rem;
+  }
+
+  .date {
+    padding-top: 10px;
+    font-size: 12px;
+  }
+}
+
+/* ---------------------Blogs.html Ended----------------------- */
+
+.img2 {
+  padding: 8rem 0rem 0rem 20rem;
+  width: 35rem;
+}
+
+.blog-content {
+  margin-left: 15rem;
+  width: 65%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.head {
+  padding-top: 50px;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.para {
+  font-size: 18px;
+  line-height: 1.75rem;
+}
+
+.video {
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+
+.more {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: rgb(226, 224, 238);
+  color: rgb(68, 58, 139);
+  margin: 6rem 0rem 0rem 20.3rem;
+  padding: 12px 25px 12px 25px;
+  width: 5rem;
+}
+
+@media (max-width: 576px) {
+  .img2 {
+    padding: 6rem 0rem 0rem 1.5rem;
+    width: 20rem;
+  }
+
+  .blog-content {
+    margin-left: 1.5rem;
+    width: 90%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  .video {
+    padding-top: 2rem;
+    padding-left: 1rem;
+  }
+
+  .more {
+    font-size: 13px;
+    font-weight: bold;
+    background-color: rgb(226, 224, 238);
+    color: rgb(68, 58, 139);
+    margin: 6rem 0rem 0rem 7rem;
+    padding: 12px 25px 12px 25px;
+    width: 5rem;
+  }
+
+  .video {
+  }
+}
