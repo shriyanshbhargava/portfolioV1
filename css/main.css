@@ -94,7 +94,7 @@ a:hover {
 .footer {
   background-color: rgb(196, 207, 199);
   margin-top: 4.5rem;
-  position: relative;
+  position: static;
   bottom: 0;
   width: 100%;
 }
