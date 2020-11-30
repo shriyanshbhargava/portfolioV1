@@ -5,12 +5,10 @@ body {
   flex-direction: column;
 }
 
-a:active {
-  font-weight: bolder;
-}
 
 a:link {
   text-decoration: none;
+  color: rgb{0, 0, 238};
 }
 
 a:hover {
