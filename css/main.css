@@ -29,6 +29,7 @@ a:hover {
   line-height: 3rem;
   font-size: 2.5rem;
   font-weight: bold;
+  width: 20rem;
 }
 
 .navbar {
@@ -95,7 +96,7 @@ a:hover {
   position: relative;
   bottom: 0;
   width: 100%;
-  }
+}
 
 .social {
   padding: 5px 18px 20px 18px;
@@ -348,8 +349,7 @@ a:hover {
   }
 
   .video {
-    padding-top: 2rem;
-    padding-left: 1rem;
+    display: none;
   }
 
   .more {
