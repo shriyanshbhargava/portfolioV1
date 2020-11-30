@@ -1,15 +1,14 @@
 body {
   font-family: "Josefin Sans", sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin: none;
+  
+  margin: 0;
 }
 
 
 a:link {
+  color: rgb(0, 0, 66);
   text-decoration: none;
-  color: rgb(0, 0, 238);
+  
 }
 
 a:hover {
@@ -83,7 +82,6 @@ a:hover {
 .header-link {
   font-size: 1.5rem;
   padding-top: 1.5rem;
-  padding-left: 10px;
   font-family: ubuntu, sans serif;
 }
 
@@ -96,6 +94,9 @@ a:hover {
 .footer {
   background-color: rgb(196, 207, 199);
   margin-top: 4.5rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
 }
 
 .social {
@@ -183,7 +184,7 @@ a:hover {
   .header-link {
     font-size: 13px;
     padding-top: 1.5rem;
-    padding-left: 10px;
+    padding-left: 2px;
     font-family: ubuntu, sans serif;
   }
   /*index.js ended*/
@@ -192,13 +193,12 @@ a:hover {
 /* ---------------------Index.html Ended----------------------- */
 
 .projects {
-  margin-top: 6rem;
   padding: 1rem 0rem 0rem 15rem;
   width: 50rem;
 }
 
 .pro-all {
-  margin-top: 6rem;
+  margin-top: 10rem;
 }
 
 .pro-head {
