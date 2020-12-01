@@ -127,7 +127,7 @@ a:hover {
 @media (max-width: 576px) {
   .menu {
     position: absolute;
-    right: 3.25rem;
+    right: 40px;
   }
 
   .menu1,
