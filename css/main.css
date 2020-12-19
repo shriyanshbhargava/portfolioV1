@@ -320,8 +320,9 @@ a:hover {
 /* ---------------------Blogs.html Ended----------------------- */
 
 .img2 {
-  padding: 8rem 0rem 0rem 20rem;
+  margin: 10rem 0rem 0rem 20rem;
   width: 35rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .blog-content {
